@@ -1,0 +1,36 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+*.env
+
+# Logs
+*.log
+*.pt
+*.pth
+# MCP server / runtime temporary files
+*.pid
+*.lock
+*.sqlite3
+
+# Output directories
+output/
+results/
+cropped_molecules/
+*.json
+*.csv
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
